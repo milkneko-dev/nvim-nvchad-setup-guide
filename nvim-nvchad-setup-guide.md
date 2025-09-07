@@ -114,6 +114,8 @@ NvChad ships with plugins that give a lightweight‑IDE feel:
 | Feature                  | Key                 | Notes                     |
 | ------------------------ | ------------------- | ------------------------- |
 | **File tree**            | `<leader> e`        | Nvim‑tree toggle          |
+| **Close file tree**      | `q`                 | Quit the tree window      |
+| **Toggle line numbers** | `<leader> n` | Show/hide line numbers |
 | **Buffer cycle**         | `Tab` / `Shift‑Tab` | Switch between open files |
 | **Maximise split**       | `Ctrl + w _` / `Ctrl + w \|` | Expand height or width (`Ctrl + w =` to reset) |
 | **Integrated terminals** | See table below     | Fast in‑editor shells     |
@@ -153,6 +155,7 @@ That sequence — **`Ctrl + x`** → **`Ctrl + h/j/k/l`** — gets you straight 
 | **Copy file to another folder** (in tree) | `c`, move to destination, `p` |
 
 To copy using the file tree, highlight the file and press `c`.
+Use `r` to rename the highlighted file or `d` to delete it.
 Move to the target folder and press `p` to paste the copy.
 Use `x` instead of `c` if you want to move it.
 
