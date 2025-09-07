@@ -192,3 +192,11 @@ You can restrict the replacement to a visual selection with:
 ```
 
 See `:h :substitute` for all options.
+
+## 14. View Git diffs
+
+- Inline signs: open a tracked file with changes; signs show in the gutter.
+- Preview hunk: `:Gitsigns preview_hunk`
+- Diff current file vs index/HEAD: `:Gitsigns diffthis` (or `:Gitsigns diffthis HEAD`)
+- Telescope status: `:Telescope git_status` (preview shows diffs)
+- Telescope commits: `:Telescope git_commits` / `:Telescope git_bcommits` (diff previews)
