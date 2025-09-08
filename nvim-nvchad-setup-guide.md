@@ -200,3 +200,11 @@ See `:h :substitute` for all options.
 - Diff current file vs index/HEAD: `:Gitsigns diffthis` (or `:Gitsigns diffthis HEAD`)
 - Telescope status: `:Telescope git_status` (preview shows diffs)
 - Telescope commits: `:Telescope git_commits` / `:Telescope git_bcommits` (diff previews)
+
+## 15. Equalize splits
+
+- Equalize now: press `Ctrl + w` then `=` (same as `:wincmd =`).
+- Keep splits equal automatically: `:set equalalways`
+  - Persist in NvChad: add `vim.opt.equalalways = true` to your custom options file (e.g., `~/.config/nvim/lua/custom/options.lua`).
+- Disable auto-equalizing: `:set noequalalways`
+- Optional: control direction when auto-equalizing with `:set eadirection=both|ver|hor`.
